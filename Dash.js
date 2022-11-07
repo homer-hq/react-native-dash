@@ -48,7 +48,7 @@ Dash.propTypes = {
 	dashLength: PropTypes.number.isRequired,
 	dashThickness: PropTypes.number.isRequired,
 	dashColor: PropTypes.string,
-	dashStyle: ViewPropTypes.style,
+	dashStyle: PropTypes.shape({}),
 }
 
 Dash.defaultProps = {
